@@ -11,7 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/debug-binary" />
             <option value="$PROJECT_DIR$/root-app" />
           </set>
         </option>
