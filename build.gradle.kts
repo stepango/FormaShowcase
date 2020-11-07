@@ -4,12 +4,12 @@ buildscript {
         google()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:4.1.0-rc03")
+        classpath("com.android.tools.build:gradle:4.1.0")
     }
 }
 
 plugins {
-    id("com.stepango.forma") version "0.0.1"
+    id("com.stepango.forma") version "0.0.3"
 }
 
 androidProjectConfiguration(
@@ -17,7 +17,7 @@ androidProjectConfiguration(
     targetSdk = 29,
     compileSdk = 29,
     kotlinVersion = "1.4.10",
-    agpVersion = "4.0.0",
+    agpVersion = "4.1.0",
     versionCode = 1,
     versionName = "1.0",
     repositories = {

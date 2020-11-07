@@ -1,6 +1,6 @@
 androidBinary(
     packageName = "com.stepango.sample.app",
-    projectDependencies = deps(
+    dependencies = deps(
         project(":root-library")
     )
 )
